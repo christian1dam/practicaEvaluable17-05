@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100dvw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+header{
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem; 
+}
+
+main{
+    width: 70%;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    justify-content: center;
+    display: flex;
+    flex-flow: row wrap;
+    width: 30%;
+}
+
+button{
+    width: 51.5%;
+    margin-top: 1rem;
+}
